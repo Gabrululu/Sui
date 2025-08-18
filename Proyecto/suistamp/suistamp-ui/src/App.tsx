@@ -387,7 +387,7 @@ export default function App() {
               </a>
             </div>
             <div className="mt-2">
-              Built for SuiStamp • Connect wallet <span className="kbd">→</span>{" "}
+              Built by Gabrululu • Connect wallet <span className="kbd">→</span>{" "}
               set PackageID <span className="kbd">→</span> Create Card{" "}
               <span className="kbd">→</span> Punch <span className="kbd">→</span>{" "}
               Redeem <span className="kbd">→</span> Gift

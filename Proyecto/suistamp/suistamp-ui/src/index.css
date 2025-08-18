@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: light; }
+.dark { color-scheme: dark; }
+html, body, #root { height: 100%; }
+
+body { @apply bg-slate-50 text-slate-900 font-sans; }
+.dark body { @apply bg-slate-900 text-slate-100; }
+
+.card { @apply bg-white dark:bg-slate-800 rounded-2xl shadow-soft p-4; }
+.btn  { @apply rounded-xl px-3 py-2 font-medium transition disabled:opacity-50; }
+.btn-primary { @apply bg-slate-900 text-white hover:opacity-90 dark:bg-slate-100 dark:text-slate-900; }
+.btn-green   { @apply bg-emerald-600 text-white hover:opacity-90; }
+.btn-indigo  { @apply bg-indigo-600 text-white hover:opacity-90; }
+.btn-amber   { @apply bg-amber-600 text-white hover:opacity-90; }
+.input { @apply w-full rounded-xl border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900 px-3 py-2; }
+.label { @apply text-sm; }
+.h1 { @apply text-3xl md:text-4xl font-extrabold; }
+.subtle { @apply text-xs text-slate-500 dark:text-slate-400; }
+.kbd { @apply inline-block rounded border px-1.5 py-0.5 text-xs border-slate-300 dark:border-slate-600; }

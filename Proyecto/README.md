@@ -137,6 +137,10 @@ npm run dev
 * **Move Registry**: publicar alias legible (polish final).
 
 ---
+## 🧪 Proof
+
+https://suistamp.vercel.app/
+---
 
 **Built with ❤️ on Sui.** 
 

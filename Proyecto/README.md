@@ -137,13 +137,10 @@ npm run dev
 * **Move Registry**: publicar alias legible (polish final).
 
 ---
-## 🧪 Proof
-
-https://suistamp.vercel.app/
----
 
 ## 🧪 Proof
-https://suistamp.vercel.app/
+
+Link: https://suistamp.vercel.app/
 
 ---
 
